@@ -4,24 +4,34 @@ Config.Target = 'ox_target' --['ox_target'/'qtarget']
 
 Config.Blip = {
 	Text = 'Job Centre',
-	Sprite = 498,
-	Size = 1.0,
-	Color = 26,
+	Sprite = 407,
+	Size = 0.6,
+	Color = 0,
 	Display = 4
 }
 
 Config.Locations = {
 	{
-		Ped = `a_f_y_business_01`,
-		Coords = vector4(-234.9988, -922.2012, 32.3123, 338.4116),
+		Ped = `cs_bankman`,
+		Coords = vector4(-233.3425, -922.8464, 31.3121, 349.9702),
 	}
 }
 
 --Optional fontawesome icons for jobs.
 Config.JobIcons = {
 	['unemployed'] = 'fa-solid fa-user',
+	['police'] = 'fa-solid fa-handcuffs',
+	['ambulance'] = 'fa-solid fa-user-doctor',
+	['mechanic'] = 'fa-solid fa-toolbox',
+	['cardealer'] = 'fa-solid fa-car-on',
 	['taxi'] = 'fa-solid fa-taxi',
-	['trucker'] = 'fa-solid fa-truck',
+	['fisherman'] = 'fa-solid fa-fish-fins',
+	['fueler'] = 'fa-solid fa-truck-droplet',
+	['lumberjack'] = 'fa-solid fa-tree',
+	['miner'] = 'fa-solid fa-person-digging',
+	['slaughterer'] = 'fa-solid fa-cow',
+	['tailor'] = 'fa-duotone fa-shirt',
+	['weedshop'] = 'fa-solid fa-cannabis',
 }
 
 Config.Licenses = {
@@ -30,13 +40,13 @@ Config.Licenses = {
 		Label = 'ID card',
 		Icon = 'fa-solid fa-id-card',
 		LicenseNeeded = false, --['license'/false] verify license ownership through esx_license
-		Price = 100
+		Price = 0
 	},
 	{
 		Item = 'license_drive',
 		Label = 'Driving license',
 		Icon = 'fa-solid fa-car',
-		LicenseNeeded = 'dmv', --['license'/false] verify license ownership through esx_license
+		LicenseNeeded = 'drive', --['license'/false] verify license ownership through esx_license
 		Price = 100
 	},
 	{
