@@ -3,7 +3,7 @@ Config.RenderDistance = 30.0
 Config.Target = 'ox_target' --['ox_target'/'qtarget']
 
 Config.Blip = {
-	Text = 'Job Centre',
+	Text = 'City Hall',
 	Sprite = 407,
 	Size = 0.6,
 	Color = 0,
