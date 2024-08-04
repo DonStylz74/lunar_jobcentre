@@ -50,10 +50,42 @@ Config.Licenses = {
 		Price = 100
 	},
 	{
+		Item = 'license_bike',
+		Label = 'Motorcycle License',
+		Icon = 'fa-solid fa-motorcycle',
+		LicenseNeeded = 'drive_bike', --['license'/false] verify license ownership through esx_license
+		Price = 100
+	},
+
+	{
+		Item = 'license_truck',
+		Label = 'Truck License',
+		Icon = 'fa-solid fa-truck-droplet',
+		LicenseNeeded = 'drive_truck', --['license'/false] verify license ownership through esx_license
+		Price = 100
+	},
+
+	{
+		Item = 'license_boat',
+		Label = 'Watercraft License',
+		Icon = 'fa-solid fa-ship',
+		LicenseNeeded = 'boat', --['license'/false] verify license ownership through esx_license
+		Price = 100
+	},
+
+	{
+		Item = 'license_plane',
+		Label = 'Aircraft License',
+		Icon = 'fa-solid fa-plane-departure',
+		LicenseNeeded = 'aircraft', --['license'/false] verify license ownership through esx_license
+		Price = 1000
+	},
+
+	{
 		Item = 'license_weapon',
-		Label = 'Weapon license',
+		Label = 'Weapons License',
 		Icon = 'fa-solid fa-gun',
 		LicenseNeeded = 'weapon', --['license'/false] verify license ownership through esx_license
-		Price = 100
+		Price = 1000
 	},
 }
