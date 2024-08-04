@@ -30,7 +30,7 @@ Config.JobIcons = {
 	['lumberjack'] = 'fa-solid fa-tree',
 	['miner'] = 'fa-solid fa-person-digging',
 	['slaughterer'] = 'fa-solid fa-cow',
-	['tailor'] = 'fa-duotone fa-shirt',
+	['tailor'] = 'fa-solid fa-shirt',
 	['weedshop'] = 'fa-solid fa-cannabis',
 }
 
