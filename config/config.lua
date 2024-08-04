@@ -13,7 +13,7 @@ Config.Blip = {
 Config.Locations = {
 	{
 		Ped = `cs_bankman`,
-		Coords = vector4(-233.3425, -922.8464, 31.3121, 349.9702),
+		Coords = vector4(-233.3425, -922.8464, 32.3121, 349.9702),
 	}
 }
 
