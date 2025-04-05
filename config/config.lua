@@ -82,7 +82,7 @@ Config.Licenses = {
 	},
 
 	{
-		Item = 'license_weapon',
+		Item = 'weaponlicense',
 		Label = 'Weapons License',
 		Icon = 'fa-solid fa-gun',
 		LicenseNeeded = 'weapon', --['license'/false] verify license ownership through esx_license
