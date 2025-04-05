@@ -43,14 +43,14 @@ Config.Licenses = {
 		Price = 0
 	},
 	{
-		Item = 'license_drive',
+		Item = 'drive',
 		Label = 'Driving license',
 		Icon = 'fa-solid fa-car',
 		LicenseNeeded = 'drive', --['license'/false] verify license ownership through esx_license
 		Price = 100
 	},
 	{
-		Item = 'license_bike',
+		Item = 'drive_bike',
 		Label = 'Motorcycle License',
 		Icon = 'fa-solid fa-motorcycle',
 		LicenseNeeded = 'drive_bike', --['license'/false] verify license ownership through esx_license
@@ -58,7 +58,7 @@ Config.Licenses = {
 	},
 
 	{
-		Item = 'license_truck',
+		Item = 'drive_truck',
 		Label = 'Truck License',
 		Icon = 'fa-solid fa-truck-droplet',
 		LicenseNeeded = 'drive_truck', --['license'/false] verify license ownership through esx_license
@@ -66,10 +66,10 @@ Config.Licenses = {
 	},
 
 	{
-		Item = 'license_boat',
+		Item = 'drive_boat',
 		Label = 'Watercraft License',
 		Icon = 'fa-solid fa-ship',
-		LicenseNeeded = 'boat', --['license'/false] verify license ownership through esx_license
+		LicenseNeeded = 'drive_boat', --['license'/false] verify license ownership through esx_license
 		Price = 100
 	},
 
