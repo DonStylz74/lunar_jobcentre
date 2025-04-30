@@ -74,7 +74,7 @@ Config.Licenses = {
 	},
 
 	{
-		Item = 'license_plane',
+		Item = 'plane_license',
 		Label = 'Aircraft License',
 		Icon = 'fa-solid fa-plane-departure',
 		LicenseNeeded = 'aircraft', --['license'/false] verify license ownership through esx_license
