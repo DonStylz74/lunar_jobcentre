@@ -31,7 +31,9 @@ Config.JobIcons = {
 	['miner'] = 'fa-solid fa-person-digging',
 	['slaughterer'] = 'fa-solid fa-cow',
 	['tailor'] = 'fa-solid fa-shirt',
-	['weedshop'] = 'fa-solid fa-cannabis',
+	['karting'] = 'fa-solid fa-gauge-high',
+	['towing'] = 'fa-solid fa-car-burst',
+	--['weedshop'] = 'fa-solid fa-cannabis',
 }
 
 Config.Licenses = {
